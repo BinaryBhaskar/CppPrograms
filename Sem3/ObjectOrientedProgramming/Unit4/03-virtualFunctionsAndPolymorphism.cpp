@@ -36,7 +36,7 @@ public:
     // 3. Pure Virtual Function
     // Forces any concrete derived class to implement this specific signature.
     virtual void turnOn() = 0; 
-    
+
     void generalSpecs() { std::cout << "120V Electrical Appliance." << std::endl; }
 };
 
