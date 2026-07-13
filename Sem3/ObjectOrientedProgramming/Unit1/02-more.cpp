@@ -67,7 +67,7 @@ public:
     // 4. Inline Function
     // Functions defined completely INSIDE a class declaration are implicitly inline.
     // The compiler replaces the call site with actual code to reduce function overhead.
-    double getArea() { 
+    inline double getArea() { 
         return width * height; 
     }
 
