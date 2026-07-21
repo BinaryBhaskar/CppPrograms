@@ -22,7 +22,7 @@ int main() {
         std::cout << fibSeq[i] << " ";
     }
 
-    std::cout << std::endl;
+    std::cout << "\n";
 
     return 0;
 }

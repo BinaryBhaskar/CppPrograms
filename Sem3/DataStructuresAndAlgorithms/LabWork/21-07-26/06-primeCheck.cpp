@@ -19,9 +19,9 @@ int main() {
     }
 
     if (isPrime) {
-        std::cout << num << " is a prime number." << std::endl;
+        std::cout << num << " is a prime number. \n";
     } else {
-        std::cout << num << " is not a prime number." << std::endl;
+        std::cout << num << " is not a prime number. \n";
     }
 
     return 0;

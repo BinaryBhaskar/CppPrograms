@@ -22,7 +22,7 @@ int main() {
         for (int j = 0; j < num; j++) {
             std::cout << arr[i][j] << " ";
         }
-        std::cout << std::endl;
+        std::cout << "\n";
     }
 
     return 0;

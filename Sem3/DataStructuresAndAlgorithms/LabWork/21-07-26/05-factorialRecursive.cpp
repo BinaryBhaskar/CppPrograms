@@ -14,7 +14,7 @@ int main() {
     std::cin >> num;
 
     long long result = factorial(num);
-    std::cout << "Factorial of " << num << " is: " << result << std::endl;
+    std::cout << "Factorial of " << num << " is: " << result << "\n";
 
     return 0;
 }
